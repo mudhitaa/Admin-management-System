@@ -1,0 +1,26 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    // File Layout
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "module": "commonjs",   //"module": "nodenext",
+    "target": "ES2020",     //"target": "esnext",
+    "types": ["node"],
+    "lib": ["ES2020"],
+    "strict": true,
+    "esModuleInterop": true,  //this will load import operations
+    "moduleResolution": "node",
+    "allowJs": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "pretty": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": ["./node_modules/@types", "./src/types"]
+
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules","dist"]
+}
