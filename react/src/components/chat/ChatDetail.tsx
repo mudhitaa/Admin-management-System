@@ -1,5 +1,5 @@
 import type { IUser } from "../../context/AuthContext"
-import type { ISingleMessage } from "../../pages/users/UserMessage"
+import type { ISingleMessage } from "../user/UserMessage"
 import { DateTime } from "luxon"
 
 export interface IChatMessageDetailProps {

@@ -1,5 +1,5 @@
 import { useState, type BaseSyntheticEvent } from "react"
-import type { IMessageType } from "../../pages/users/UserMessage"
+import type { IMessageType } from "../user/UserMessage"
 import type { IUser } from "../../context/AuthContext"
 import socket from "../../config/socket"
 import { useAuth } from "../../hooks/useAuth"

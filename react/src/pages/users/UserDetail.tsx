@@ -5,7 +5,7 @@ import { toast } from "sonner";
 import axiosInstance from "../../config/axiosConfig";
 import { ucFirst } from "../../utilities/helpers";
 import { LuUser } from "react-icons/lu";
-import UserMessage from "./UserMessage";
+import UserMessage from "../../components/user/UserMessage.tsx";
 import socket from "../../config/socket";
 
 export default function UserDetail() {
